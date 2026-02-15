@@ -1,0 +1,135 @@
+INFO: payment_method might already exist or: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'payment_method'
+SHIFT_CLOSINGS SCHEMA:
+Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => user_id
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => user_name
+            [Type] => varchar(100)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => shift_start
+            [Type] => datetime
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => shift_end
+            [Type] => datetime
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => total_sales
+            [Type] => decimal(10,2)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0.00
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => total_orders
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => total_voids
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => expected_cash
+            [Type] => decimal(10,2)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0.00
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => actual_cash
+            [Type] => decimal(10,2)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0.00
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => difference
+            [Type] => decimal(10,2)
+            [Null] => YES
+            [Key] => 
+            [Default] => 0.00
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => notes
+            [Type] => text
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [12] => Array
+        (
+            [Field] => created_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+)

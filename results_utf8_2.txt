@@ -1,0 +1,15 @@
+﻿Resetting test data...
+
+Test 1: Create Order WITHOUT Shift...
+PASS: Blocked order without shift.
+
+Test 2: Open Shift...
+PASS: Shift Opened. ID: 21
+
+Test 3: Create Order WITH Shift (21)...
+RAW RESPONSE: <br />
+<b>Warning</b>:  Undefined array key "total" in <b>D:\Xamp\htdocs\Tailor\New_folder\New_folder_login_3\controllers\OrderController.php</b> on line <b>180</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "total" in <b>D:\Xamp\htdocs\Tailor\New_folder\New_folder_login_3\controllers\OrderController.php</b> on line <b>182</b><br />
+{"success":true,"order_id":"196","order_number":"INV-1196","merged":false}
+FAIL: Order Creation Failed: null
